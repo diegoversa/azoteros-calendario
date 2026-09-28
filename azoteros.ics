@@ -26,13 +26,24 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:6485780@azoteros-calendario
-DTSTAMP:20260928T224000Z
+DTSTAMP:20260928T224429Z
 DTSTART;TZID=Europe/Madrid:20261004T170000
 DTEND;TZID=Europe/Madrid:20261004T180000
 SUMMARY:⚽ Azoteros FC vs El Caso Arnedo
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Norte\, Avda. Filipinas esq. Pabl
  o Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 1\, Grupo C\, loc
+DESCRIPTION:window.fbAsyncInit = function () {\n        FB.init({\n        
+     appId: '404864630152829'\,\n            autoLogAppEvents: true\,\n    
+         xfbml: true\,\n            version: 'v3.3'\n        })\;\n    }\;\
+ n\n    (function (d\, s\, id) {\n        var js\, fjs = d.getElementsByTag
+ Name(s)[0]\;\n        if (d.getElementById(id)) {\n            return\;\n 
+        }\n        js = d.createElement(s)\;\n        js.id = id\;\n       
+  js.src = "https://connect.facebook.net/en_US/sdk.js"\;\n        fjs.paren
+ tNode.insertBefore(js\, fjs)\;\n    }(document\, 'script'\, 'facebook-jssd
+ k'))\;\n\n    function shareFacebook() {\n        FB.ui({\n            met
+ hod: 'share'\,\n            display: 'popup'\,\n            href: "https:\
+ \/\\/www.ocioydeportecanal.es\\/es\\/matches\\/view\\/6485780"\,\n        
+ }\, function (response) {\n        })\;\n    }\, Jornada 1\, Grupo C\, loc
  al\nhttps://www.ocioydeportecanal.es/es/matches/view/6485780
 URL:https://www.ocioydeportecanal.es/es/matches/view/6485780
 BEGIN:VALARM
@@ -43,13 +54,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6485788@azoteros-calendario
-DTSTAMP:20260928T224000Z
+DTSTAMP:20260928T224429Z
 DTSTART;TZID=Europe/Madrid:20261018T170000
 DTEND;TZID=Europe/Madrid:20261018T180000
 SUMMARY:⚽ La Oscuridad FC vs Azoteros FC
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Norte\, Avda. Filipinas esq. Pabl
  o Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 3\, Grupo C\, vis
+DESCRIPTION:window.fbAsyncInit = function () {\n        FB.init({\n        
+     appId: '404864630152829'\,\n            autoLogAppEvents: true\,\n    
+         xfbml: true\,\n            version: 'v3.3'\n        })\;\n    }\;\
+ n\n    (function (d\, s\, id) {\n        var js\, fjs = d.getElementsByTag
+ Name(s)[0]\;\n        if (d.getElementById(id)) {\n            return\;\n 
+        }\n        js = d.createElement(s)\;\n        js.id = id\;\n       
+  js.src = "https://connect.facebook.net/en_US/sdk.js"\;\n        fjs.paren
+ tNode.insertBefore(js\, fjs)\;\n    }(document\, 'script'\, 'facebook-jssd
+ k'))\;\n\n    function shareFacebook() {\n        FB.ui({\n            met
+ hod: 'share'\,\n            display: 'popup'\,\n            href: "https:\
+ \/\\/www.ocioydeportecanal.es\\/es\\/matches\\/view\\/6485788"\,\n        
+ }\, function (response) {\n        })\;\n    }\, Jornada 3\, Grupo C\, vis
  itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6485788
 URL:https://www.ocioydeportecanal.es/es/matches/view/6485788
 BEGIN:VALARM
@@ -60,13 +82,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6485787@azoteros-calendario
-DTSTAMP:20260928T224000Z
+DTSTAMP:20260928T224429Z
 DTSTART;TZID=Europe/Madrid:20261025T180000
 DTEND;TZID=Europe/Madrid:20261025T190000
 SUMMARY:⚽ Azoteros FC vs Ramblers
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Principal\, Avda. Filipinas esq. 
  Pablo Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 2\, Grupo C\, loc
+DESCRIPTION:window.fbAsyncInit = function () {\n        FB.init({\n        
+     appId: '404864630152829'\,\n            autoLogAppEvents: true\,\n    
+         xfbml: true\,\n            version: 'v3.3'\n        })\;\n    }\;\
+ n\n    (function (d\, s\, id) {\n        var js\, fjs = d.getElementsByTag
+ Name(s)[0]\;\n        if (d.getElementById(id)) {\n            return\;\n 
+        }\n        js = d.createElement(s)\;\n        js.id = id\;\n       
+  js.src = "https://connect.facebook.net/en_US/sdk.js"\;\n        fjs.paren
+ tNode.insertBefore(js\, fjs)\;\n    }(document\, 'script'\, 'facebook-jssd
+ k'))\;\n\n    function shareFacebook() {\n        FB.ui({\n            met
+ hod: 'share'\,\n            display: 'popup'\,\n            href: "https:\
+ \/\\/www.ocioydeportecanal.es\\/es\\/matches\\/view\\/6485787"\,\n        
+ }\, function (response) {\n        })\;\n    }\, Jornada 2\, Grupo C\, loc
  al\nhttps://www.ocioydeportecanal.es/es/matches/view/6485787
 URL:https://www.ocioydeportecanal.es/es/matches/view/6485787
 BEGIN:VALARM
@@ -77,13 +110,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6485793@azoteros-calendario
-DTSTAMP:20260928T224000Z
+DTSTAMP:20260928T224429Z
 DTSTART;TZID=Europe/Madrid:20261108T180000
 DTEND;TZID=Europe/Madrid:20261108T190000
 SUMMARY:⚽ La Oscuridad FC vs Azoteros FC
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Principal\, Avda. Filipinas esq. 
  Pablo Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 4\, Grupo C\, vis
+DESCRIPTION:window.fbAsyncInit = function () {\n        FB.init({\n        
+     appId: '404864630152829'\,\n            autoLogAppEvents: true\,\n    
+         xfbml: true\,\n            version: 'v3.3'\n        })\;\n    }\;\
+ n\n    (function (d\, s\, id) {\n        var js\, fjs = d.getElementsByTag
+ Name(s)[0]\;\n        if (d.getElementById(id)) {\n            return\;\n 
+        }\n        js = d.createElement(s)\;\n        js.id = id\;\n       
+  js.src = "https://connect.facebook.net/en_US/sdk.js"\;\n        fjs.paren
+ tNode.insertBefore(js\, fjs)\;\n    }(document\, 'script'\, 'facebook-jssd
+ k'))\;\n\n    function shareFacebook() {\n        FB.ui({\n            met
+ hod: 'share'\,\n            display: 'popup'\,\n            href: "https:\
+ \/\\/www.ocioydeportecanal.es\\/es\\/matches\\/view\\/6485793"\,\n        
+ }\, function (response) {\n        })\;\n    }\, Jornada 4\, Grupo C\, vis
  itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6485793
 URL:https://www.ocioydeportecanal.es/es/matches/view/6485793
 BEGIN:VALARM
@@ -94,13 +138,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6485802@azoteros-calendario
-DTSTAMP:20260928T224000Z
+DTSTAMP:20260928T224429Z
 DTSTART;TZID=Europe/Madrid:20261122T190000
 DTEND;TZID=Europe/Madrid:20261122T200000
 SUMMARY:⚽ Azoteros FC vs Vodkalovers FC
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Central\, Avda. Filipinas esq. Pa
  blo Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 6\, Grupo C\, loc
+DESCRIPTION:window.fbAsyncInit = function () {\n        FB.init({\n        
+     appId: '404864630152829'\,\n            autoLogAppEvents: true\,\n    
+         xfbml: true\,\n            version: 'v3.3'\n        })\;\n    }\;\
+ n\n    (function (d\, s\, id) {\n        var js\, fjs = d.getElementsByTag
+ Name(s)[0]\;\n        if (d.getElementById(id)) {\n            return\;\n 
+        }\n        js = d.createElement(s)\;\n        js.id = id\;\n       
+  js.src = "https://connect.facebook.net/en_US/sdk.js"\;\n        fjs.paren
+ tNode.insertBefore(js\, fjs)\;\n    }(document\, 'script'\, 'facebook-jssd
+ k'))\;\n\n    function shareFacebook() {\n        FB.ui({\n            met
+ hod: 'share'\,\n            display: 'popup'\,\n            href: "https:\
+ \/\\/www.ocioydeportecanal.es\\/es\\/matches\\/view\\/6485802"\,\n        
+ }\, function (response) {\n        })\;\n    }\, Jornada 6\, Grupo C\, loc
  al\nhttps://www.ocioydeportecanal.es/es/matches/view/6485802
 URL:https://www.ocioydeportecanal.es/es/matches/view/6485802
 BEGIN:VALARM
@@ -111,13 +166,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6485799@azoteros-calendario
-DTSTAMP:20260928T224000Z
+DTSTAMP:20260928T224429Z
 DTSTART;TZID=Europe/Madrid:20261129T180000
 DTEND;TZID=Europe/Madrid:20261129T190000
 SUMMARY:⚽ Bayern de los Caidos FC vs Azoteros FC
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Principal\, Avda. Filipinas esq. 
  Pablo Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 5\, Grupo C\, vis
+DESCRIPTION:window.fbAsyncInit = function () {\n        FB.init({\n        
+     appId: '404864630152829'\,\n            autoLogAppEvents: true\,\n    
+         xfbml: true\,\n            version: 'v3.3'\n        })\;\n    }\;\
+ n\n    (function (d\, s\, id) {\n        var js\, fjs = d.getElementsByTag
+ Name(s)[0]\;\n        if (d.getElementById(id)) {\n            return\;\n 
+        }\n        js = d.createElement(s)\;\n        js.id = id\;\n       
+  js.src = "https://connect.facebook.net/en_US/sdk.js"\;\n        fjs.paren
+ tNode.insertBefore(js\, fjs)\;\n    }(document\, 'script'\, 'facebook-jssd
+ k'))\;\n\n    function shareFacebook() {\n        FB.ui({\n            met
+ hod: 'share'\,\n            display: 'popup'\,\n            href: "https:\
+ \/\\/www.ocioydeportecanal.es\\/es\\/matches\\/view\\/6485799"\,\n        
+ }\, function (response) {\n        })\;\n    }\, Jornada 5\, Grupo C\, vis
  itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6485799
 URL:https://www.ocioydeportecanal.es/es/matches/view/6485799
 BEGIN:VALARM
@@ -128,13 +194,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6485806@azoteros-calendario
-DTSTAMP:20260928T224000Z
+DTSTAMP:20260928T224429Z
 DTSTART;TZID=Europe/Madrid:20261213T190000
 DTEND;TZID=Europe/Madrid:20261213T200000
 SUMMARY:⚽ Azoteros FC vs Haxis Saint Germanin FC
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Central\, Avda. Filipinas esq. Pa
  blo Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 7\, Grupo C\, loc
+DESCRIPTION:window.fbAsyncInit = function () {\n        FB.init({\n        
+     appId: '404864630152829'\,\n            autoLogAppEvents: true\,\n    
+         xfbml: true\,\n            version: 'v3.3'\n        })\;\n    }\;\
+ n\n    (function (d\, s\, id) {\n        var js\, fjs = d.getElementsByTag
+ Name(s)[0]\;\n        if (d.getElementById(id)) {\n            return\;\n 
+        }\n        js = d.createElement(s)\;\n        js.id = id\;\n       
+  js.src = "https://connect.facebook.net/en_US/sdk.js"\;\n        fjs.paren
+ tNode.insertBefore(js\, fjs)\;\n    }(document\, 'script'\, 'facebook-jssd
+ k'))\;\n\n    function shareFacebook() {\n        FB.ui({\n            met
+ hod: 'share'\,\n            display: 'popup'\,\n            href: "https:\
+ \/\\/www.ocioydeportecanal.es\\/es\\/matches\\/view\\/6485806"\,\n        
+ }\, function (response) {\n        })\;\n    }\, Jornada 7\, Grupo C\, loc
  al\nhttps://www.ocioydeportecanal.es/es/matches/view/6485806
 URL:https://www.ocioydeportecanal.es/es/matches/view/6485806
 BEGIN:VALARM

@@ -111,7 +111,9 @@ def parse_match(mid, page):
 
     jornada = re.search(r"Jornada (\d+)", text)
     grupo = re.search(r"Grupo ([A-Z])\b", text)
-    comp = re.search(r"/competition/view/\d+[^\"]*\"[^>]*>\s*([^<]+?)\s*<", page)
+    comp = re.search(r"Competición (.{3,80}?) (?:Grupo|Jornada|Sede|Ronda|Fase de)", text)
+    if comp and re.search(r"[{};=]", comp.group(1)):
+        comp = None
 
     return {
         "id": mid,
@@ -121,7 +123,7 @@ def parse_match(mid, page):
         "venue": venue.replace("PRINCIPAL", "Principal"),
         "jornada": jornada.group(1) if jornada else None,
         "grupo": grupo.group(1) if grupo else None,
-        "competicion": html.unescape(comp.group(1)) if comp else None,
+        "competicion": comp.group(1).strip() if comp else None,
     }
 
 

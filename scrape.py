@@ -231,6 +231,9 @@ def main():
     if not matches:
         raise SystemExit("No he podido leer ningún partido; no toco el calendario.")
 
+    # Una marca mensual: garantiza un commit al mes para que GitHub no
+    # desactive la ejecución programada tras 60 días sin actividad.
+    state["revisado"] = dt.date.today().strftime("%Y-%m")
     OUT.write_bytes(build_ics(matches, stamps).encode("utf-8"))
     STATE.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n")
     print(f"OK: {len(matches)} partidos en {OUT.name}")

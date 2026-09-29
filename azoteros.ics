@@ -25,16 +25,16 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:6485780@azoteros-calendario
-DTSTAMP:20260928T224540Z
+UID:6486116@azoteros-calendario
+DTSTAMP:20260929T212334Z
 DTSTART;TZID=Europe/Madrid:20261004T170000
 DTEND;TZID=Europe/Madrid:20261004T180000
 SUMMARY:⚽ Azoteros FC vs El Caso Arnedo
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Norte\, Avda. Filipinas esq. Pabl
  o Iglesias\, 28003 Madrid
 DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 1\, Grupo C\, loc
- al\nhttps://www.ocioydeportecanal.es/es/matches/view/6485780
-URL:https://www.ocioydeportecanal.es/es/matches/view/6485780
+ al\nhttps://www.ocioydeportecanal.es/es/matches/view/6486116
+URL:https://www.ocioydeportecanal.es/es/matches/view/6486116
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido Azoteros FC
@@ -42,16 +42,16 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6485788@azoteros-calendario
-DTSTAMP:20260928T224540Z
+UID:6486124@azoteros-calendario
+DTSTAMP:20260929T212334Z
 DTSTART;TZID=Europe/Madrid:20261018T170000
 DTEND;TZID=Europe/Madrid:20261018T180000
 SUMMARY:⚽ La Oscuridad FC vs Azoteros FC
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Norte\, Avda. Filipinas esq. Pabl
  o Iglesias\, 28003 Madrid
 DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 3\, Grupo C\, vis
- itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6485788
-URL:https://www.ocioydeportecanal.es/es/matches/view/6485788
+ itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6486124
+URL:https://www.ocioydeportecanal.es/es/matches/view/6486124
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido Azoteros FC
@@ -59,16 +59,16 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6485787@azoteros-calendario
-DTSTAMP:20260928T224540Z
+UID:6486123@azoteros-calendario
+DTSTAMP:20260929T212334Z
 DTSTART;TZID=Europe/Madrid:20261025T180000
 DTEND;TZID=Europe/Madrid:20261025T190000
 SUMMARY:⚽ Azoteros FC vs Ramblers
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Principal\, Avda. Filipinas esq. 
  Pablo Iglesias\, 28003 Madrid
 DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 2\, Grupo C\, loc
- al\nhttps://www.ocioydeportecanal.es/es/matches/view/6485787
-URL:https://www.ocioydeportecanal.es/es/matches/view/6485787
+ al\nhttps://www.ocioydeportecanal.es/es/matches/view/6486123
+URL:https://www.ocioydeportecanal.es/es/matches/view/6486123
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido Azoteros FC
@@ -76,16 +76,16 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6485793@azoteros-calendario
-DTSTAMP:20260928T224540Z
+UID:6486129@azoteros-calendario
+DTSTAMP:20260929T212334Z
 DTSTART;TZID=Europe/Madrid:20261108T180000
 DTEND;TZID=Europe/Madrid:20261108T190000
-SUMMARY:⚽ La Oscuridad FC vs Azoteros FC
+SUMMARY:⚽ Proyecto SAD vs Azoteros FC
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Principal\, Avda. Filipinas esq. 
  Pablo Iglesias\, 28003 Madrid
 DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 4\, Grupo C\, vis
- itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6485793
-URL:https://www.ocioydeportecanal.es/es/matches/view/6485793
+ itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6486129
+URL:https://www.ocioydeportecanal.es/es/matches/view/6486129
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido Azoteros FC
@@ -93,50 +93,16 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6485802@azoteros-calendario
-DTSTAMP:20260928T224540Z
+UID:6486138@azoteros-calendario
+DTSTAMP:20260929T212334Z
 DTSTART;TZID=Europe/Madrid:20261122T190000
 DTEND;TZID=Europe/Madrid:20261122T200000
 SUMMARY:⚽ Azoteros FC vs Vodkalovers FC
 LOCATION:Canal Ocio y Deporte - Fútbol 7 Central\, Avda. Filipinas esq. Pa
  blo Iglesias\, 28003 Madrid
 DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 6\, Grupo C\, loc
- al\nhttps://www.ocioydeportecanal.es/es/matches/view/6485802
-URL:https://www.ocioydeportecanal.es/es/matches/view/6485802
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido Azoteros FC
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6485799@azoteros-calendario
-DTSTAMP:20260928T224540Z
-DTSTART;TZID=Europe/Madrid:20261129T180000
-DTEND;TZID=Europe/Madrid:20261129T190000
-SUMMARY:⚽ Bayern de los Caidos FC vs Azoteros FC
-LOCATION:Canal Ocio y Deporte - Fútbol 7 Principal\, Avda. Filipinas esq. 
- Pablo Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 5\, Grupo C\, vis
- itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6485799
-URL:https://www.ocioydeportecanal.es/es/matches/view/6485799
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido Azoteros FC
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6485806@azoteros-calendario
-DTSTAMP:20260928T224540Z
-DTSTART;TZID=Europe/Madrid:20261213T190000
-DTEND;TZID=Europe/Madrid:20261213T200000
-SUMMARY:⚽ Azoteros FC vs Haxis Saint Germanin FC
-LOCATION:Canal Ocio y Deporte - Fútbol 7 Central\, Avda. Filipinas esq. Pa
- blo Iglesias\, 28003 Madrid
-DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 7\, Grupo C\, loc
- al\nhttps://www.ocioydeportecanal.es/es/matches/view/6485806
-URL:https://www.ocioydeportecanal.es/es/matches/view/6485806
+ al\nhttps://www.ocioydeportecanal.es/es/matches/view/6486138
+URL:https://www.ocioydeportecanal.es/es/matches/view/6486138
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido Azoteros FC

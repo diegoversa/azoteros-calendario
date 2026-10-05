@@ -109,4 +109,21 @@ DESCRIPTION:Partido Azoteros FC
 TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:6486135@azoteros-calendario
+DTSTAMP:20261005T121448Z
+DTSTART;TZID=Europe/Madrid:20261129T180000
+DTEND;TZID=Europe/Madrid:20261129T190000
+SUMMARY:⚽ Bayern de los Caidos FC vs Azoteros FC
+LOCATION:Canal Ocio y Deporte - Fútbol 7 Principal\, Avda. Filipinas esq. 
+ Pablo Iglesias\, 28003 Madrid
+DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 5\, Grupo C\, vis
+ itante\nhttps://www.ocioydeportecanal.es/es/matches/view/6486135
+URL:https://www.ocioydeportecanal.es/es/matches/view/6486135
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido Azoteros FC
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
 END:VCALENDAR

@@ -126,4 +126,21 @@ DESCRIPTION:Partido Azoteros FC
 TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:6486142@azoteros-calendario
+DTSTAMP:20261011T202744Z
+DTSTART;TZID=Europe/Madrid:20261213T190000
+DTEND;TZID=Europe/Madrid:20261213T200000
+SUMMARY:⚽ Azoteros FC vs Haxis Saint Germanin FC
+LOCATION:Canal Ocio y Deporte - Fútbol 7 Central\, Avda. Filipinas esq. Pa
+ blo Iglesias\, 28003 Madrid
+DESCRIPTION:Domingo tarde - Fase clasificatoria\, Jornada 7\, Grupo C\, loc
+ al\nhttps://www.ocioydeportecanal.es/es/matches/view/6486142
+URL:https://www.ocioydeportecanal.es/es/matches/view/6486142
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido Azoteros FC
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
 END:VCALENDAR

@@ -25,6 +25,9 @@ TEAM_NAME = "AZOTEROS FC"
 CAL_NAME = "Azoteros FC"
 ADDRESS = "Avda. Filipinas esq. Pablo Iglesias, 28003 Madrid"
 DURATION_MIN = 60
+SCAN = 30           # números de partido que reviso a cada lado de los conocidos
+RECHECK_DAYS = 7    # cada cuánto vuelvo a mirar un número que no era nuestro
+PAUSE = 0.3         # segundos entre peticiones, para no cargar la web
 
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / "state.json"
@@ -191,6 +194,46 @@ def build_ics(matches, stamps):
     return "\r\n".join(fold(x) for x in L) + "\r\n"
 
 
+def discover(state, seen):
+    """Busca partidos de Azoteros que la ficha del equipo no enseña.
+
+    La ficha solo muestra los ~6 próximos partidos, y si la liga rehace el
+    calendario todos cambian de número. Los partidos de un grupo tienen
+    números seguidos, así que reviso los números alrededor de los que la
+    ficha sí enseña. Los que no son de Azoteros se apuntan en "otros" y no
+    se vuelven a mirar hasta pasada una semana.
+    """
+    known = state["matches"]
+    otros = state.setdefault("otros", {})
+    anchors = [int(m) for m in (seen or known)]
+    if not anchors:
+        return
+    lo, hi = min(anchors) - SCAN, max(anchors) + SCAN
+    today = dt.date.today()
+    found = 0
+    for n in range(lo, hi + 1):
+        mid = str(n)
+        if mid in known:
+            continue
+        last = otros.get(mid)
+        if last and (today - dt.date.fromisoformat(last)).days < RECHECK_DAYS:
+            continue
+        time.sleep(PAUSE)
+        try:
+            page = fetch(f"{BASE}/es/matches/view/{mid}", tries=2)
+        except FetchError:
+            continue  # se reintenta en la próxima ejecución
+        if page is not None and parse_match(mid, page) is not None:
+            known[mid] = {}
+            found += 1
+            print(f"  {mid}: encontrado fuera de la ficha del equipo")
+        else:
+            otros[mid] = today.isoformat()
+    for mid in [m for m in otros if not lo <= int(m) <= hi]:
+        del otros[mid]
+    print(f"Búsqueda {lo}-{hi}: {found} partidos nuevos encontrados")
+
+
 def main():
     state = json.loads(STATE.read_text()) if STATE.exists() else {"matches": {}}
     known = state.setdefault("matches", {})
@@ -198,8 +241,11 @@ def main():
     team_page = fetch(TEAM_URL)
     if not team_page or TEAM_NAME not in team_page.upper():
         raise SystemExit("No se pudo leer la ficha del equipo; no toco el calendario.")
-    for mid in re.findall(r"/matches/view/(\d+)", team_page):
+    seen = set(re.findall(r"/matches/view/(\d+)", team_page))
+    for mid in seen:
         known.setdefault(mid, {})
+
+    discover(state, seen)
 
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     matches, stamps, dropped = [], {}, []
